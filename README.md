@@ -9,3 +9,5 @@ When a certain threshold is reached for the size of a block, the user with the r
 Maybe the closest to 0 remainder suffices to sign a block/basket.
 
 When 2 competing basket's reach consensus at the same time, no signing will be performed and a new basket will be formed.
+
+--> another randomness: pick the highest/lowest (if sum of all hashes is even/odd) hash as center and do a +/- with the average of all hashes and who's closest to those limits may sign the block.
